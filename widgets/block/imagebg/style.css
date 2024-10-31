@@ -1,0 +1,60 @@
+.bgimgwrp .khobish-ajax-wrap{
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+
+.bgimgwrp .bgholder::before {
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.bgimgwrp .metawrpr{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin: auto;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   width: 100%;
+   max-width: 400px;   
+}
+.bgimgwrp .khbhvr {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    top: 0;
+}
+.bgimgwrp .bgholder{
+    background-size: cover;  
+        height: 300px;  
+        position: relative;
+        padding: 20px;  
+-webkit-animation: myfirst 1s ; /* Chrome, Safari, Opera */
+    animation: myfirst 1s ;        
+}
+
+.bgimgwrp.style_one .khbsmall,.bgimgwrp.style_two .khbsmall {
+    width: 50%;
+    float: left;
+    position: relative;
+    overflow: hidden;  
+}
+
+.bgimgwrp .khbig{
+    clear: both;
+}
+
+.bgimgwrp .photonegrid{
+  padding:10px;
+}
+@media (max-width: 767px){
+    .bgimgwrp.style_one .khbsmall,.bgimgwrp.style_two .khbsmall {
+        width:100%;
+    }
+}

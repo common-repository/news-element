@@ -1,0 +1,33 @@
+.khbginr{
+    position: relative;
+    overflow: hidden;
+    height: 475px;
+}
+.khbginr .inr{
+    display: inline-block;
+}
+.bgpostthumb{
+    position: absolute;
+    width: 100%;
+    height: inherit;
+}
+.bgpostthumb .overlaymeta{
+    margin: 0px auto;
+    position: relative;
+}  
+.bgpostthumb::before {
+    content:"";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}  
+.bgpostthumb .overlaymeta a{
+    display: inline-block;
+}
+.bgpostthumb .overlaymeta {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}

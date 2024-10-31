@@ -1,0 +1,39 @@
+.herogrid24 .ft-thumbwrap {
+    width: 103px;
+    float: left;
+    overflow: hidden;  
+}
+.herogrid24 .firstblock .excerpt-wrap {
+    padding-left: 18px;
+}
+.herogrid24 .ft-thumbwrap img{
+    width: 100%;
+    -webkit-transform: translate3d(0px,0,0);
+    transform: translate3d(0px,0,0);  
+}
+.herogrid24 .inrwrp{
+    background-size: cover;
+    background-position: center; 
+  position:relative;
+}
+
+.herogrid24 .inrwrp::before {
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.herogrid24 .secondblock .excerpt-wrap {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0px;
+}
+.herogrid24 .firstblock .post-item{
+    overflow: hidden;
+}
+.herogrid24 .khboverlaythumb{
+    position: absolute;
+}

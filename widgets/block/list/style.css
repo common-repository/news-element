@@ -1,0 +1,36 @@
+.khobishmag-list .ft-thumbwrap{
+	overflow: hidden;
+}	
+
+.khobishmag-list .contentwrapper{
+    position: relative;
+    overflow: hidden;
+}
+
+.khobishmag-list .anim-fade .post-item{
+    overflow: hidden;	
+}
+
+.khobishmag-list .anim-fade:not(:last-child) .post-item{
+	border-bottom: 1px solid #eee;
+    padding-bottom: 20px;	
+}
+
+@media (min-width: 768px){
+	.khobishmag-list .post-item{
+		display: flex;
+	}  
+	.khobishmag-list .thumbwrapper{
+		flex-shrink: 0;
+		width: 50%;
+		max-width: 50%;  
+	}
+	.khobishmag-list.imgright .post-item{
+		flex-direction: row-reverse;
+	}
+
+	.khobishmag-list.imgalt .anim-fade:nth-child(odd) .post-item{
+		flex-direction: row-reverse;
+	  }
+
+}

@@ -1,0 +1,28 @@
+.herogrid29 .inrwrp::before {
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.herogrid29 .inrwrp {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.herogrid29 .excerpt-wrap {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0px;
+}
+.herogrid29 .firstblock .inrwrp {
+    height: 352px;
+}
+.herogrid29 .secondblock .inrwrp {
+    height: 200px;
+}
+.herogrid29 .khboverlaythumb{
+    position: absolute;
+}

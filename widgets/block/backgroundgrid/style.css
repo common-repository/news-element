@@ -1,0 +1,45 @@
+.khobishbackgroundwrp .khbhvr {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.khobishbackgroundwrp .bgholder{
+    background-size: cover;  
+        height: 300px;  
+        position: relative;
+        padding: 20px;  
+        -webkit-animation: myfirst 1s ; /* Chrome, Safari, Opera */
+        animation: myfirst 1s ; 
+        overflow: hidden;       
+}
+.khobishbackgroundwrp .bgholder::before {
+    content:"";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+      -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.khobishbackgroundwrp .metawrpr{
+    bottom: 0px;
+    position: absolute;
+    left: 0;
+}
+.khobishbackgroundwrp .khboverlaythumb {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 2;
+}
+.khobishbackgroundwrp .photonegrid{
+    float: left;
+}

@@ -1,0 +1,32 @@
+.khobishhero16{
+    overflow: hidden;
+}
+.khobishhero16 .smallthumb .ft-thumbwrap{
+  width:100px;
+  float:left;
+}
+.khobishhero16 .smallthumb .ft-thumbwrap img{
+ -webkit-transform: translate3d(-0px,0,0);
+    transform: translate3d(-0px,0,0); 
+    width:100%;
+}
+.khobishhero16 .ft-thumbwrap{
+    overflow: hidden;
+}
+.khobishhero16 .post-item.smallthumb{
+    overflow: hidden;
+}
+
+.khobishhero16 .firstblock .ft-thumbwrap {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+.khobishhero16 .firstblock .ft-thumbwrap img {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100% !important;
+    -o-object-fit: cover;
+    object-fit: cover;
+}

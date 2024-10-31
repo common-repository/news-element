@@ -1,0 +1,42 @@
+.khobish-customlinks ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    overflow: hidden;
+  }
+  .khobish-customlinks.style_one li{
+    display:block;
+    float: left;
+  }
+  .khobish-customlinks .linksocial{
+      display: block;
+      color: white;
+  }
+  
+  .khobish-customlinks.style_one .linksocial {
+      border-bottom-color: rgba(255,255,255,0.2);
+      border-bottom-style:solid;
+      border-bottom-width:1px;
+    padding-left: 5px;
+  -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      -ms-transition: all .2s ease-in-out;
+      -o-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+    padding-bottom:10px;
+    padding-top:10px;
+  }
+  .khobish-customlinks.style_one .linksocial:hover {
+      padding-left: 10px !important;
+  }
+  /*.khobish-customlinks.style_one li:first-child .linksocial {
+      padding-top: 0px !important;;
+  }*/
+  
+  .khobish-customlinks.style_one li:last-child a {
+      border-bottom: none !important;;
+  }
+  
+  .khobish-customlinks.style_two li{
+    display:inline-block;
+  }

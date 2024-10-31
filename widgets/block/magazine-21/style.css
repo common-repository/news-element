@@ -1,0 +1,16 @@
+.khbmag21 .smtitle{
+    width:50%;
+    float:left;
+  }
+  .khbmag21 .bgtitle{
+      clear:both;
+  }
+  .khbmag21 .ft-thumbwrap{
+      overflow: hidden;
+  }
+  
+  @media (max-width: 1025px){
+    .khbmag21 .smtitle{
+      width: 100%;
+    }
+  }

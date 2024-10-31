@@ -1,0 +1,64 @@
+.khobish-slider-five .khbprnx {
+    position: absolute;
+    top: 50%;
+    width: 35px;
+    height: 35px;
+    background: white;
+    line-height: 35px;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: -17.5px;
+    z-index: 1;
+    opacity:0;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.khobish-slider-five:hover .khbprnx {
+    opacity: 1;
+}
+.khobish-slider-five .khbprev {
+    right: 0px;
+}
+.khobish-slider-five .khbnxt {
+    left: 0px;
+}
+.khobish-slider-five:hover .khbnxt {
+    left: 10px;
+}
+.khobish-slider-five:hover .khbprev {
+    right: 10px;
+}
+.khobish-slider-five .catbg-wrap{
+    position: absolute;
+}
+.khobish-slider-five-wrap .swiper-pagination {
+    width: 100%;
+    bottom: -35px;
+}
+.khobish-slider-five-wrap .swiper-pagination-bullet{
+   margin:0px 5px;
+}
+
+.khobish-slider-five .ft-thumbwrap img {
+    max-width: none;
+    width: -webkit-calc(100% + 20px) !important;
+    width: calc(100% + 20px) !important;
+}
+.khobish-slider-five .ft-thumbwrap {
+    overflow: hidden;
+}
+
+.khobish-slider-five .ft-thumbwrap.even .catbg-wrap {
+    top: auto;
+    bottom: 18px;
+    left: 20px;
+}
+
+.khobish-slider-five .ft-thumbwrap.odd .catbg-wrap {
+    top: 18px;
+    left: 20px;
+}

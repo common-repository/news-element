@@ -1,0 +1,61 @@
+.khb-commentwrap .reply{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.khb-commentwrap .comment-body{
+  position:relative;
+}
+.khb-commentwrap .commentlist {
+    list-style: none;
+    padding: 0px;
+    margin-top: 35px;  
+}
+.khb-commentwrap .commentlist ul {
+    padding-left: 2em;
+    margin: 0;
+    list-style-type: none;
+}
+.khb-commentwrap .commentlist article {
+    overflow: hidden;
+    border: 1px solid #d3d7d9;
+    padding: 25px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.khb-commentwrap .commentlist .byuser> article {
+    background-color: #fafafa;
+}
+.khb-commentwrap .commentlist .comment-author img {
+    width: 62px;
+    float: left;
+    margin-right: 15px;
+}
+.khb-commentwrap .khbcomment-field{
+  width:33.33%;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.khb-commentwrap .inr{
+  margin-left: -10px;
+  margin-right: -10px;
+  overflow: hidden;
+}
+.khb-commentwrap .khbcommentbtn{
+  text-align: center;
+}
+.khb-commentwrap .khbcommentload{
+    display: inline-block;
+    text-align: center;
+    cursor: pointer; 
+}
+@media screen and (min-width: 768px) {
+  .khb-commentwrap .comment-content {
+    position: relative;
+    overflow: hidden;
+  }
+}
+.khb-commentwrap .form-submit{
+  display: none;
+}

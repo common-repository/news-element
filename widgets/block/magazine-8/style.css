@@ -1,0 +1,17 @@
+.magazine-1 .ft-thumbwrap,.magazine-1 .rest .post-item{
+    overflow: hidden;
+}
+.magazine-1.style_two .rest .ft-thumbwrap{
+    float: none;
+    width:100%;
+}
+.magazine-1 .overlaycat{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+@media (min-width: 768px){
+    .magazine-1.mag8 .first .post-item{
+        display: flex;
+    }
+}

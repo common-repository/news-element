@@ -1,0 +1,15 @@
+.khobish-single-meta {
+    margin: 0px auto;
+} 
+.khobish-single-meta .inr{
+    display: inline-block;
+}
+.khobish-single-meta.yes .entry_title:before {
+    content: attr(data-first);
+    position: absolute;
+    font-size: 82px;
+    color: #0000000a;
+    top: 21px;
+    left: 1%;
+    z-index: -1;
+}

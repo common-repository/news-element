@@ -1,0 +1,48 @@
+.khobishvidplaylist .firstblock{
+    position: relative;
+}
+
+.khobishvidplaylist.style_two .firstblock{
+    width:60%;
+    float: left;
+}
+.khobishvidplaylist.style_two .secondblock{
+    width:40%;
+    float: left;
+}
+.khobishvidplaylist .thumbwrapper{
+    position: relative;
+}
+.khobishvidplaylist .duration {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: white;
+    padding: 0px 8px;
+    display: inline-block;
+    font-size: 13px;
+}
+.khobishvidplaylist .secondblock .title{
+    display: block;
+}
+.khobishvidplaylist .secondblock {
+    overflow: hidden;
+    margin-top: 10px;
+}
+.khobishvidplaylist .slider__item{
+    cursor: pointer;
+    display:block !important;
+}
+.khobishvidplaylist .slick-current .thumbwrapper img{
+   opacity: .5; 
+}
+.khobishvidplaylist .secondblock .slick-slide img {
+    display: block;
+    width: 100%;
+    height: inherit;
+    object-fit: cover;    
+}
+
+.khobishvidplaylist.style_two .thumbwrapper {
+    float: left;
+}

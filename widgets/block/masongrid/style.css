@@ -1,0 +1,19 @@
+.masongrd-gridwrp .khobish-ajax-wrap{
+	overflow: unset;
+}
+
+.masongrd-gridwrp .bgholder{
+    background-size: cover;     
+        position: relative;        
+}
+.masongrd-gridwrp .ft-thumbwrap{
+    overflow: hidden;
+}
+.masongrd-gridwrp .ft-thumbwrap .catbg-wrap {
+    position: relative;
+}
+
+.khobish-ajax-wrap.mason-on .masongrdgrid{
+    width:33.33%;
+    float: left;
+}

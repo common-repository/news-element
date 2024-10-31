@@ -1,0 +1,78 @@
+.khbtaxlist3{
+    overflow: hidden;
+}
+.khbtaxlist3 article{
+    float: left;
+}
+.khbtaxlist3 .title{
+    position: relative;
+    display: inline-block;
+    margin:0px;
+}
+.khbtaxlist3 .taxnum{
+    float: right;
+    height: inherit;
+    padding: 0px 18px;
+    background: black;
+    transition: padding .35s;
+}
+
+.khbtaxlist3 .bgtax-2:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+}
+.khbtaxlist3.grid article{
+  width:50%;
+  float:left;
+  padding:10px;
+  top:0px;
+-webkit-transition: all .15s ease-in-out;
+    -moz-transition: all .15s ease-in-out;
+    -ms-transition: all .15s ease-in-out;
+    -o-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    position: relative;
+}
+
+.khbtaxlist3 .inr{
+  position:relative;
+}
+
+
+.khbtaxlist3 .taxdescription {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    height: inherit;
+}
+
+.khbtaxlist3 .wrapinr,.khbtaxlist3 .title{
+  height: inherit;
+}
+.khbtaxlist3 article a {
+    height: inherit;
+    z-index: 1;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.khbtaxlist3 article img {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100% !important;
+    -o-object-fit: cover;
+    object-fit: cover;
+}

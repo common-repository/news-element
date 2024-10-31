@@ -1,0 +1,27 @@
+.khbcounter-a .inrwrp{
+    width:20%;
+    float:left;
+  }
+  .khbcounter-a{
+      overflow: hidden;
+  }
+  .khbcounter-a .ft-thumbwrap{
+    overflow:hidden;
+  }
+  .khbcounter-a .ft-thumbwrap .counter {
+      bottom: 0px;
+      top: auto;
+      width: 35px;
+      height: 35px;
+      line-height: 36px;
+  }	
+  .khbcounter-a.en_border .post-item{
+      border: 1px solid #eee;
+      margin-top: -1px;
+      margin-left: -1px;    
+  }
+  .khbcounter-a.style_two .counter {
+      position: absolute;
+      top: 20px;
+      left: 5px;
+  }

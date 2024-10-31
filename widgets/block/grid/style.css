@@ -1,0 +1,6 @@
+.khbgrid .ft-thumbwrap{
+    overflow: hidden;
+}
+.khbgrid .excerpt-wrap{
+    overflow: inherit;
+}

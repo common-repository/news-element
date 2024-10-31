@@ -1,0 +1,37 @@
+.khbtrending6 .khbnumber {
+    position: absolute;
+    background: #eee;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.khbtrending6 .excerpt-wrap{
+    padding-left: 50px;
+}
+.khbtrending6 .khboverlaythumb{
+    position: absolute;
+    top: 20px;
+    left: 20px;		
+}
+.khbtrending6 .ft-thumbwrap{
+    overflow: hidden;
+}
+
+.khbtrending6 .khb-big-block{
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #eee;  
+    
+}
+.khbtrending6 .khb-big-block .excerpt-wrap{
+  padding-top:15px;
+}
+.khbtrending6 .khb-small-block:not(:last-child) {
+  padding-bottom:25px;
+}

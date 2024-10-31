@@ -1,0 +1,60 @@
+.khobish-promobox ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    
+  }
+  .khobish-promobox li{
+    display:block;
+    float: left;
+  }
+  .khobish-promobox .featured-img{
+      height: 100%;
+      object-fit: cover;
+  }
+  .khobish-promobox .inr li{
+    width:33.33%;
+    float:left;
+    position: relative;
+    padding: 10px;
+  }
+  .khobish-promobox .khbcontent{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      left: 0;  
+      z-index: 1;
+  }
+  .khobish-promobox .ovly:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 100%;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      background: #00000059;
+  }
+  
+  .khobish-promobox .ovly{
+      position: absolute;
+      left: 30px;
+      bottom: 30px;
+      top: 30px;
+      right: 30px;
+      border: 1px solid white;
+  }
+  .khobish-promobox .linksocial {
+      position: absolute;
+      left: 0;
+      width: 100%;
+      top: 0px;
+      bottom: 0px;
+      z-index: 1;
+  }
+  .khobish-promobox .inrwrp {
+      position: relative;
+      height: inherit;
+  }

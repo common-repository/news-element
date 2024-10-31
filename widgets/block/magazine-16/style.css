@@ -1,0 +1,44 @@
+.magazine-16 .ft-thumbwrap{
+    overflow: hidden;
+}
+@media (max-width: 768px) {
+    .magazine-16 .fw-col-sm-6{
+        width:50%;
+        float: left;
+    }
+}
+.magazine-16 .first{
+    clear: both;
+    overflow: hidden;        
+}
+
+.magazine-16 .style_two .post-item{
+    height: 400px;
+}
+.magazine-16 .style_two .inrwrp{
+    height: inherit;
+    background-size: cover; 
+      -webkit-animation: myfirst 1s ; /* Chrome, Safari, Opera */
+        animation: myfirst 1s ;          
+}
+.magazine-16 .khboverlaythumb .catbg-wrap{
+    z-index: 2;
+}
+.magazine-16 .style_two .excerpt-wrap{
+    transform: translateY(-100%);
+    display: inline-block;
+    z-index: 2;
+}
+.magazine-16 .inrwrp::before {
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+.magazine-16 .khboverlaythumb{
+    position:absolute;
+}
